@@ -54,7 +54,5 @@ public class WikimediaChangesProducer {
             log.error("Error Occured: ", e);
             throw new RuntimeException(e);
         }
-
-
     }
 }
