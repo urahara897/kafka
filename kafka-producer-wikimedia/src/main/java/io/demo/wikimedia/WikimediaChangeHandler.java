@@ -10,7 +10,7 @@ public class WikimediaChangeHandler implements BackgroundEventHandler {
 
     KafkaProducer<String, String> kafkaProducer;
     String topic;
-    private final Logger log = LoggerFactory.getLogger(WikimediaChangeHandler.class.getName()) ;
+    private final Logger log = LoggerFactory.getLogger(WikimediaChangeHandler.class.getName());
 
     public WikimediaChangeHandler(KafkaProducer<String, String> kafkaProducer, String topic){
          this.kafkaProducer = kafkaProducer;

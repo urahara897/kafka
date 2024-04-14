@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
 public class WikimediaChangesProducer {
     public static void main(String[] args) {
 
-        final Logger log = LoggerFactory.getLogger(WikimediaChangeHandler.class.getName()) ;
+        final Logger log = LoggerFactory.getLogger(WikimediaChangeHandler.class.getName());
        readFromConfig configReader = new readFromConfig();
 
         Properties properties = new Properties();
